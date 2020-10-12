@@ -1,0 +1,305 @@
+{
+	"id": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+	"name": "NUVU",
+	"description": "",
+	"order": [
+		"f720ae2f-a5ca-12c0-4f21-34266edd8185",
+		"75cbf8bb-5cd6-aa74-37ec-9a464a92c981",
+		"92598ef5-9803-ef8b-3ba6-f064a4ce2269",
+		"5943a917-1636-848f-ce92-669cc439810c",
+		"409d60c2-bbe5-9946-4fad-594a308ccbd3",
+		"6b9a7b8c-11a0-a97c-e0a0-9c32ad15d51c",
+		"f85f367b-7f74-8a09-83b6-08ee8d30c165",
+		"fb1ee60d-00b9-7238-bae7-226a2f45f6fd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1602387027693,
+	"owner": "1317262",
+	"public": false,
+	"requests": [
+		{
+			"id": "409d60c2-bbe5-9946-4fad-594a308ccbd3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{protocol}}://{{host}}/private/user/cc/assign?access_token={{token}}",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602537350614,
+			"name": "User (assign cc)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": [],
+			"rawModeData": "{\n    \"number\": \"666666666666\",\n    \"expDate\": \"01/21\",\n    \"status\": true,\n    \"cvv\": 654\n}"
+		},
+		{
+			"id": "5943a917-1636-848f-ce92-669cc439810c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{protocol}}://{{host}}/private/user/update?access_token={{token}}",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602537340293,
+			"name": "User (update)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": [],
+			"rawModeData": "{\n  \"userData\": {\n\t  \"firstName\": \"pedroooooooo\",\n\t  \"secondName\": \"jose\",\n\t  \"lastName\": \"quintero\",\n\t  \"secondLastName\": \"perez\",\n\t  \"idType\": \"PASSPORT\",\n\t  \"idNumber\": \"66666666\",\n\t  \"age\": 35,\n\t  \"phoneNumber\": \"3103334455555555555555\",\n\t  \"email\": \"william@mail.com\",\n\t  \"addresses\": [\n\t\t  \t{\n\t\t        \"address\": \"carrera 34 #55-0000000000\",\n\t\t        \"country\": \"Colombiassss\",\n\t\t        \"state\": \"Antioquia\",\n\t\t        \"city\": \"Medellin\",\n\t\t        \"postalCode\": 123\n\t\t    },\n\t\t    {\n\t\t        \"address\": \"Calle 23\",\n\t\t        \"country\": \"Venezuelaaaaaaaaaaa\",\n\t\t        \"state\": \"Zulia\",\n\t\t        \"city\": \"Maracaibo\",\n\t\t        \"postalCode\": 6789\n\t\t    }\n\t\t]\n  }\n}"
+		},
+		{
+			"id": "6b9a7b8c-11a0-a97c-e0a0-9c32ad15d51c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{protocol}}://{{host}}/private/user/cc/update?access_token={{token}}",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602537355618,
+			"name": "User (update cc)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": [],
+			"rawModeData": "{\n    \"number\": \"5555444484845454999\",\n    \"expDate\": \"12/12\",\n    \"status\": false,\n    \"cvv\": 654\n}"
+		},
+		{
+			"id": "75cbf8bb-5cd6-aa74-37ec-9a464a92c981",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{protocol}}://{{host}}/user/create",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602535836227,
+			"name": "User (create/register)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": [],
+			"rawModeData": "{\n  \"username\": \"williamqq\",\n  \"password\": \"123456\",\n  \"userData\": {\n\t  \"firstName\": \"pedro\",\n\t  \"secondName\": \"jose\",\n\t  \"lastName\": \"quintero\",\n\t  \"secondLastName\": \"perez\",\n\t  \"idType\": \"IDENTIFICATION\",\n\t  \"idNumber\": \"222333444\",\n\t  \"age\": 35,\n\t  \"phoneNumber\": \"3103334455\",\n\t  \"email\": \"william@mail.com\",\n\t  \"addresses\": [\n\t\t  \t{\n\t\t        \"address\": \"carrera 34 #55-00\",\n\t\t        \"country\": \"Colombia\",\n\t\t        \"state\": \"Antioquia\",\n\t\t        \"city\": \"Medellin\",\n\t\t        \"postalCode\": 123\n\t\t    },\n\t\t    {\n\t\t        \"address\": \"Calle 23\",\n\t\t        \"country\": \"Venezuela\",\n\t\t        \"state\": \"Zulia\",\n\t\t        \"city\": \"Maracaibo\",\n\t\t        \"postalCode\": 6789\n\t\t    }\n\t\t]\n  }\t\n}"
+		},
+		{
+			"id": "92598ef5-9803-ef8b-3ba6-f064a4ce2269",
+			"headers": "",
+			"headerData": [],
+			"url": "{{protocol}}://{{host}}/private/user?access_token={{token}}",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602537333171,
+			"name": "User (consult)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": []
+		},
+		{
+			"id": "f720ae2f-a5ca-12c0-4f21-34266edd8185",
+			"headers": "Authorization: Basic bnV2dS1hcHA6c2VjcmV0\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic bnV2dS1hcHA6c2VjcmV0",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " {{protocol}}://{{host}}/oauth/token?grant_type=password&username=admin&password=qwrty123",
+			"queryParams": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "admin",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "qwrty123",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": "",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": null,
+			"dataMode": "params",
+			"tests": "bodyData = JSON.parse(responseBody)\nvalue = bodyData.access_token\n\npostman.setGlobalVariable(\"token\", value);\nconsole.log(value)",
+			"currentHelper": "basicAuth",
+			"helperAttributes": {
+				"id": "basic",
+				"username": "nuvu-app",
+				"password": "secret",
+				"saveToRequest": true
+			},
+			"time": 1602537467879,
+			"name": "User (login)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": []
+		},
+		{
+			"id": "f85f367b-7f74-8a09-83b6-08ee8d30c165",
+			"headers": "",
+			"headerData": [],
+			"url": "{{protocol}}://{{host}}/private/user/all?access_token={{token}}",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602537225430,
+			"name": "Admin (consult all users)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": []
+		},
+		{
+			"id": "fb1ee60d-00b9-7238-bae7-226a2f45f6fd",
+			"headers": "",
+			"headerData": [],
+			"url": "{{protocol}}://{{host}}/private/user/cc/all?access_token={{token}}",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "{{token}}",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1602537233061,
+			"name": "Admin (consult all cc)",
+			"description": "",
+			"collectionId": "70f5060b-59b5-89a4-8401-7dd38b40bf13",
+			"responses": []
+		}
+	]
+}
