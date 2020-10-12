@@ -83,6 +83,12 @@ host:/private/user/cc/all?access_token={{admin_token}}
 | -206 | User does not have a credit card assigned |
 | -207 | Error updating credit card - errMsg: #### |
 
+> #### USUARIO (ADMIN) PARA PRUEBAS  
+> **Username:** admin  
+> **Password:** qwrty123  
+> **NOTA:** Este usuario posee ROLE_ADMIN, el resto de los usuarios solo ROLE_USER
+
+
 ### BASE DE DATOS
 
 ![DB](https://i.ibb.co/xHSJkJL/Screenshot-from-2020-10-11-13-34-59.png)
