@@ -8,7 +8,7 @@
 -   H2
 
 
-#### ENDPOINTS (Rest services) (v2)
+### ENDPOINTS (Rest services) (v2)
 
 -   **Solicitud de token/login**
 >**POST**
@@ -51,7 +51,7 @@ host:/private/user/all?access_token={{admin_token}}
 >
 host:/private/user/cc/all?access_token={{admin_token}}
 
-#### CÓDIGOS DE RESPUESTA - ENDPOINTS (v2)
+### CÓDIGOS DE RESPUESTA - ENDPOINTS (v2)
 ***USUARIO***
 
 | CODIGO | MENSAJE |
@@ -83,6 +83,6 @@ host:/private/user/cc/all?access_token={{admin_token}}
 | -206 | User does not have a credit card assigned |
 | -207 | Error updating credit card - errMsg: #### |
 
-#### BASE DE DATOS
+### BASE DE DATOS
 
 ![DB](https://i.ibb.co/xHSJkJL/Screenshot-from-2020-10-11-13-34-59.png)
